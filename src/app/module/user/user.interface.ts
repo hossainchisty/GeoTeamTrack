@@ -8,7 +8,7 @@ type Name = {
 type Role = "employee" | "admin";
 
 export interface IUser extends Document {
-  _id: string
+  _id: string;
   name: Name;
   role: Role;
   password: string;
